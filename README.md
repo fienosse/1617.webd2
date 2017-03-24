@@ -1,2 +1,2 @@
-# 1617.webd2
-Opdracht webdesign 2: Design Agency
+# 1617.webd2.local
+Webdesign II Applications and Code Examples
