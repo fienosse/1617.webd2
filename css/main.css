@@ -161,8 +161,40 @@ footer {
     border: none;
 }
 
-.portfolio a:hover {
-    color: lightgrey;
+.portfolio_wraper {
+	position: relative;
+}
+
+.portfolio_wraper:hover .overlayer,
+.portfolio_wraper:hover .overlayer h4 {
+	color: transparent;
+	background-color: transparent;
+}
+
+
+.portfolio_wraper {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.portfolio_foto {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+    display: block;
+}
+
+.overlayer {
+    width: 100%;
+    height: 100%;
+	position: absolute;
+	background-color: rgb(113, 170, 136);
+	transition: 0.8s;
+}
+
+.tekst_overlayer {
+    text-align: center;
+	margin-top: 50%;
 }
 
 /* footer */
