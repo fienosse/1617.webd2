@@ -94,6 +94,10 @@ footer {
     margin: 40px 0 20px 0;
 }
 
+.card__image {
+    width: 100%;
+}
+
 /* pagina wie zijn wij */
 
 .tekst_wiezijnwij {
@@ -205,11 +209,17 @@ footer {
 }
 
 .footer_socialicons a {
+    margin-top: 50px;
     background-color: rgb(60, 95, 75);
     display: block;
     width: 30px;
     height: 30px;
     margin: 0 auto;
+}
+
+.tekst_footer {
+    color: rgb(113, 170, 136);
+    text-align: center;
 }
 
 /* http://nicolasgallagher.com/micro-clearfix-hack/ */
