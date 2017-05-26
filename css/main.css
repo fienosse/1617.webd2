@@ -227,7 +227,35 @@ footer {
 
 .tekst_footer {
     color: rgb(113, 170, 136);
+}
+
+.tekst_copyright {
     text-align: center;
+    color: rgb(113, 170, 136);
+}
+
+.fa-facebook-official,
+.fa-pinterest,
+.fa-instagram {
+    text-rendering: auto;
+    position: relative;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+/* disclaimer */
+
+.disclaimer:visited {
+    color: rgb(113, 170, 136);
+}
+
+.disclaimer:hover {
+    color: rgb(171, 158, 132);
+}
+
+.disclaimer {
+    float: left;
+    text-decoration: none;
 }
 
 /* http://nicolasgallagher.com/micro-clearfix-hack/ */
