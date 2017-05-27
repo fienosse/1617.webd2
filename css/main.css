@@ -201,7 +201,12 @@ footer {
 }
 
 #publicatie_chakras {
-    margin-bottom: 80px;
+    margin-bottom: 120px;
+    margin-top: 40px;
+}
+
+#tekst_chakras {
+    margin-top: 40px;
 }
 
 /* footer */
