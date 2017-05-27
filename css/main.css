@@ -200,6 +200,10 @@ footer {
     margin: 100px 0;
 }
 
+#publicatie_chakras {
+    margin-bottom: 80px;
+}
+
 /* footer */
 
 footer {
@@ -247,6 +251,7 @@ footer {
 .disclaimer {
     float: left;
     text-decoration: none;
+    color: rgb(113, 170, 136);
 }
 
 .tekst_disclaimer {
