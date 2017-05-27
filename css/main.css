@@ -43,7 +43,7 @@ footer {
     text-align: center;
 }
 
-/* pagina contact*/
+/* pagina contact */
 
 .contact_layout {
     background-color: rgb(113, 170, 136);
@@ -161,27 +161,18 @@ footer {
 
 /* pagina portfolio */
 
-.portfolio {
-    height: 200px;
-    margin-bottom: 60px;
-    background-image: url("/Documenten/Semester_2/WEBD II/95000_osselaer_fien/fienosse.github.io/assets/chakras.jpg");
-    background-repeat: no-repeat;
-    background-size: 300px 200px;
-    border: none;
-}
-
-.portfolio_wraper {
+.portfolio_wrapper {
 	position: relative;
 }
 
-.portfolio_wraper:hover .overlayer,
-.portfolio_wraper:hover .overlayer h4 {
+.portfolio_wrapper:hover .overlayer,
+.portfolio_wrapper:hover .overlayer h4 {
 	color: transparent;
 	background-color: transparent;
 }
 
 
-.portfolio_wraper {
+.portfolio_wrapper {
     margin-bottom: 100px;
 }
 
@@ -256,6 +247,10 @@ footer {
 .disclaimer {
     float: left;
     text-decoration: none;
+}
+
+.tekst_disclaimer {
+    margin-bottom: 80px;
 }
 
 /* http://nicolasgallagher.com/micro-clearfix-hack/ */
