@@ -11,6 +11,7 @@ body {
 
 h1,
 h2,
+h3,
 .keywords,
 ul {
     font-family: 'Dosis', serif;
@@ -39,8 +40,17 @@ footer {
     opacity: 0.8;
 }
 
-#welkom {
+.welkom {
     text-align: center;
+}
+ 
+.wat_doen_we {
+    margin-left: 60px;
+    margin-bottom: 120px;
+}
+
+.icon_home {
+    margin-left: 20px;
 }
 
 /* pagina contact */
